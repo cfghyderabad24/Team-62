@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
+import Chatbot from './Chatbot'
 
 const Home=()=>{
     return(
         <div>
             <nav class="navbar navbar-expand-lg">
             <div class="container-fluid" style={{backgroundColor:"#192841",}}>
+                <Chatbot/>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHlxVwS8JynktGFnCQ30V02GlRFrWInQP2g&s" alt="" style={{minWidth:"50px",borderRadius:"50%",padding:"10px 5px",width:"70px"}} />
                 <a className="navbar-brand me-auto px-3" href="#" style={{color:"white",fontSize:"max(15px,3vw)"}}>Jaldhaara</a>
                 {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

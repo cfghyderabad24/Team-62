@@ -19,7 +19,7 @@ const CompanySchema=new mongoose.Schema({
     csr_policies:{
         type:[String],
     },
-    anual_csr_spend:{
+    annual_csr_spend:{
         type:"Number",
     },
     unspend_csr:{

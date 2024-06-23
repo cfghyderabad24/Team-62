@@ -5,6 +5,6 @@ const CompanyRouter=express.Router()
 
 CompanyRouter.get("/add",addCompany)
 
-CompanyRouter.get("/get",getCompany)
+CompanyRouter.post("/get",getCompany)
 
 module.exports=CompanyRouter;
